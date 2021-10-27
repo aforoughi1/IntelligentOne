@@ -32,9 +32,22 @@ The platform was verified against the following data types: stock, gold, and cur
 #### Average Directional Index(ADX)
 ![ADX Chart](/images/IntelligentOneScreenshot10.png)
 
-#### The Model Builder
+### The Model Builder
 The ML model builder is a console application which is configurable. It creates a factory for each instrument and uses the AutoML.Net library to build/train/evaluate the best model for each indicator.
 
 ![The MlBuilder](/images/IntelligentOneScreenshot25.png)
 
 ![The MlBuilder Config](/images/IntelligentOneScreenshot26.png)
+
+Identifying the right features influences the quality and performance of the ML algorithms. 
+The Model Builder support the following tools:
+
+#### The Pearson correlation coefficient
+The training data sets can be checked for the correlation between different properties.
+
+#### The Linearly separability
+There are several classification algorithms that are designed to separate the data by constructing a linear decision Boundary 
+(hyperplane) to divide the classes. The data sets can be checked for linearly separability or not by constructing their convex hulls.
+
+
+
