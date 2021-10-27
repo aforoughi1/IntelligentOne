@@ -31,3 +31,7 @@ The platform was verified against the following data types: stock, gold, and cur
 
 ### Average Directional Index(ADX)
 ![ADX Chart](/images/IntelligentOneScreenshot10.png)
+
+## The Model Builder
+![The MlBuilder](/images/IntelligentOneScreenshot25.png)
+
