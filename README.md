@@ -9,25 +9,25 @@ The platform was verified against the following data types: stock, gold, and cur
 
 ## Technical Indicators/Charts
 ### Bollinger Bands(BB)
-![BB Chart](/images/IntelligentOneScreenshot2.png)
+![BB Chart](/images/IntelligentOneScreenshot3.png)
 
 ### Moving Average Convergence Divergence(MACD)
-![MACD Chart](/images/IntelligentOneScreenshot3.png)
+![MACD Chart](/images/IntelligentOneScreenshot4.png)
 
 ### Fast Stochastic Oscillator(FSO) 
-![FSO Chart](/images/IntelligentOneScreenshot4.png)
+![FSO Chart](/images/IntelligentOneScreenshot5.png)
 
 ### Williams %R(%R) 
-![WR Chart](/images/IntelligentOneScreenshot5.png)
+![WR Chart](/images/IntelligentOneScreenshot6.png)
 
 ### Relative Strength Index(RSI) 
-![RSI Chart](/images/IntelligentOneScreenshot6.png)
+![RSI Chart](/images/IntelligentOneScreenshot7.png)
 
 ### On Balance Volume(OBV)
-![OBV Chart](/images/IntelligentOneScreenshot7.png)
+![OBV Chart](/images/IntelligentOneScreenshot8.png)
 
 ### Moving Average (MA)
-![MA Chart](/images/IntelligentOneScreenshot8.png)
+![MA Chart](/images/IntelligentOneScreenshot9.png)
 
 ### Average Directional Index(ADX)
-![ADX Chart](/images/IntelligentOneScreenshot5.png)
+![ADX Chart](/images/IntelligentOneScreenshot10.png)
