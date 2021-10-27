@@ -5,4 +5,4 @@ The IntelligentOne is a platform for Model development for the Capital Markets, 
 
 The platform was verified against the following data types: stock, gold, and currency pair instruments.
 
-<img src="./images/IntelligentOneScreenshot0.png" alt="My Project Tickers" width="300" height="80">
+<img src="./images/IntelligentOneScreenshot0.png" alt="My Project Tickers" width="300" height="200">
