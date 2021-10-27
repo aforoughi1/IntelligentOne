@@ -39,15 +39,21 @@ The ML model builder is a console application which is configurable. It creates 
 
 ![The MlBuilder Config](/images/IntelligentOneScreenshot26.png)
 
-Identifying the right features influences the quality and performance of the ML algorithms. 
-The Model Builder support the following tools:
+Identifying the right features influences the quality and performance of the ML algorithms. The Model Builder support the following tools:
+
+#### Data Analysis
+The outliers are data points that diverges far away from other values. We need to detect anomalies when preparing datasets for machine learning models e.g. null values because of public holidays.
+
+![The BoxPlot](/images/IntelligentOneScreenshot16.png)
 
 #### The Pearson correlation coefficient
-The training data sets can be checked for the correlation between different properties.
+The training data sets can be checked for the correlation between different properties by constructing the Pearson correlation coefficient.
+
+![The PCC](/images/IntelligentOneScreenshot17.png)
 
 #### The Linearly separability
 There are several classification algorithms that are designed to separate the data by constructing a linear decision Boundary 
 (hyperplane) to divide the classes. The data sets can be checked for linearly separability or not by constructing their convex hulls.
 
-
+![The CH](/images/IntelligentOneScreenshot18.png)
 
