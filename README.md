@@ -7,8 +7,8 @@ The platform was verified against the following data types: stock, gold, and cur
 
 <img src="./images/IntelligentOneScreenshot0.png" alt="My Project Tickers" width="250" height="150">
 
-## Technical Indicators/Charts
-### Bollinger Bands(BB)
+### Technical Indicators/Charts
+#### Bollinger Bands(BB)
 ![BB Chart](/images/IntelligentOneScreenshot3.png)
 
 ### Moving Average Convergence Divergence(MACD)
