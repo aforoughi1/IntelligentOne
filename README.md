@@ -32,7 +32,7 @@ The platform was verified against the following data types: stock, gold, and cur
 #### Average Directional Index(ADX)
 ![ADX Chart](/images/IntelligentOneScreenshot10.png)
 
-### The Model Builder
+#### The Model Builder
 The ML model builder is a console application which is configurable. It creates a factory for each instrument and uses the AutoML.Net library to build/train/evaluate the best model for each indicator.
 
 ![The MlBuilder](/images/IntelligentOneScreenshot25.png)
