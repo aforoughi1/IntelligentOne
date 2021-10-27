@@ -11,28 +11,28 @@ The platform was verified against the following data types: stock, gold, and cur
 #### Bollinger Bands(BB)
 ![BB Chart](/images/IntelligentOneScreenshot3.png)
 
-### Moving Average Convergence Divergence(MACD)
+#### Moving Average Convergence Divergence(MACD)
 ![MACD Chart](/images/IntelligentOneScreenshot4.png)
 
-### Fast Stochastic Oscillator(FSO) 
+#### Fast Stochastic Oscillator(FSO) 
 ![FSO Chart](/images/IntelligentOneScreenshot5.png)
 
-### Williams %R(%R) 
+#### Williams %R(%R) 
 ![WR Chart](/images/IntelligentOneScreenshot6.png)
 
-### Relative Strength Index(RSI) 
+#### Relative Strength Index(RSI) 
 ![RSI Chart](/images/IntelligentOneScreenshot7.png)
 
-### On Balance Volume(OBV)
+#### On Balance Volume(OBV)
 ![OBV Chart](/images/IntelligentOneScreenshot8.png)
 
-### Moving Average (MA)
+#### Moving Average (MA)
 ![MA Chart](/images/IntelligentOneScreenshot9.png)
 
-### Average Directional Index(ADX)
+#### Average Directional Index(ADX)
 ![ADX Chart](/images/IntelligentOneScreenshot10.png)
 
-## The Model Builder
+### The Model Builder
 The ML model builder is a console application which is configurable. It creates a factory for each instrument and uses the AutoML.Net library to build/train/evaluate the best model for each indicator.
 
 ![The MlBuilder](/images/IntelligentOneScreenshot25.png)
