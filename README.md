@@ -46,12 +46,12 @@ The outliers are data points that diverges far away from other values. We need t
 
 ![The BoxPlot](/images/IntelligentOneScreenshot16.png)
 
-#### The Pearson correlation coefficient
-The training data sets can be checked for the correlation between different properties by constructing the Pearson correlation coefficient.
+#### The Pearson Correlation Coefficient
+The training data sets can be checked for the correlation between different properties by constructing the Pearson Correlation Coefficients.
 
 ![The PCC](/images/IntelligentOneScreenshot17.png)
 
-#### The Linearly separability
+#### The Linearly Separability
 There are several classification algorithms that are designed to separate the data by constructing a linear decision Boundary 
 (hyperplane) to divide the classes. The data sets can be checked for linearly separability or not by constructing their convex hulls.
 
