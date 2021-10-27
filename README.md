@@ -35,3 +35,4 @@ The platform was verified against the following data types: stock, gold, and cur
 ## The Model Builder
 ![The MlBuilder](/images/IntelligentOneScreenshot25.png)
 
+![The MlBuilder Config](/images/IntelligentOneScreenshot26.png)
