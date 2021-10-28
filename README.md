@@ -46,7 +46,7 @@ The outliers are data points that diverges far away from other values. We need t
 
 ![The BoxPlot](/images/IntelligentOneScreenshot16.png)
 
-#### The Pearson Correlation Coefficient correlation
+#### The Pearson Correlation Coefficient
 The training data sets can be verified for the correlation between different properties by constructing the Pearson Correlation Coefficients.
 
 ![The PCC](/images/IntelligentOneScreenshot17.png)
