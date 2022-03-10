@@ -57,12 +57,12 @@ There are classification algorithms that are designed to separate the data by co
 ![The CH](/images/IntelligentOneScreenshot18.png)
 
 #### The Sentiment Modelling
-Sentiment Analysis is, in a nutshell, the process of analysing pieces of text to determine the sentiment, whether they are positive or negative or neutral. Here, It is used to observe the Headlines and Regulatory News, and to determine the tone and the underlying information in source materials. 
+Sentiment Analysis is, in a nutshell, the process of analysing pieces of text to determine the sentiment, whether they are positive or negative or neutral. Here, it is used to observe the Headlines and Regulatory News, and to determine the tone and the underlying information in source materials. 
 
 To extract the features from the news headlines, we use the natural language processing (NLP) to capture the features in the financial domain. We make use of FinBERT for this task. 
 
 The FinBERT is a Transformer model pretrained fully on financial articles (the language model on a financial corpus). It is further Finetuned using the labelled Financial Sentiment’s dictionary (Financial Phrase Bank by Malo et al. 2014), which has mapped the 
-words: sentence | sentiment. It is a language model based on the BERT (Bidirectional Encoder Representations) model, a deep neural network, which developed by Google in 2018.
+words: sentence | sentiment. The language model is based on the BERT (Bidirectional Encoder Representations) model, a deep neural network, which was developed by Google in 2018.
 
 ![The SM App](/images/IntelligentOneSentimentAnalysis1.png)
 
