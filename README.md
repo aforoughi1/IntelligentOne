@@ -66,7 +66,7 @@ words: sentence | sentiment. The language model is based on the BERT (Bidirectio
 
 ![The SM App](/images/IntelligentOneSentimentAnalysis1.png)
 
-The power of the  language model and Deep Learning is clearly demonstrated here.
+The Deep Learning model is 80% accurate. 
 
 ![The SM Results](/images/IntelligentOneSentimentAnalysis2.png)
  
