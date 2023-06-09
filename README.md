@@ -14,7 +14,7 @@ The platform was verified against the following data types: stock, gold, and cur
 #### Moving Average Convergence Divergence(MACD)
 ![MACD Chart](/images/IntelligentOneScreenshot4.png)
 
-#### Moving Average (MA)
+#### Moving Average Crossover (MACO)
 ![MA Chart](/images/IntelligentOneScreenshot9.png)
 
 #### Fast Stochastic Oscillator(FSO) 
