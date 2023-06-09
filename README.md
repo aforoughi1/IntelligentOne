@@ -14,6 +14,9 @@ The platform was verified against the following data types: stock, gold, and cur
 #### Moving Average Convergence Divergence(MACD)
 ![MACD Chart](/images/IntelligentOneScreenshot4.png)
 
+#### Moving Average (MA)
+![MA Chart](/images/IntelligentOneScreenshot9.png)
+
 #### Fast Stochastic Oscillator(FSO) 
 ![FSO Chart](/images/IntelligentOneScreenshot5.png)
 
@@ -25,9 +28,6 @@ The platform was verified against the following data types: stock, gold, and cur
 
 #### On Balance Volume(OBV)
 ![OBV Chart](/images/IntelligentOneScreenshot8.png)
-
-#### Moving Average (MA)
-![MA Chart](/images/IntelligentOneScreenshot9.png)
 
 #### Average Directional Index(ADX)
 ![ADX Chart](/images/IntelligentOneScreenshot10.png)
