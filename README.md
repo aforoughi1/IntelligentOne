@@ -17,20 +17,20 @@ The platform was verified against the following data types: stock, gold, and cur
 #### Moving Average Crossover (MACO)
 ![MA Chart](/images/IntelligentOneScreenshot9.png)
 
-#### Fast Stochastic Oscillator(FSO) 
-![FSO Chart](/images/IntelligentOneScreenshot5.png)
+#### Relative Strength Index(RSI) 
+![RSI Chart](/images/IntelligentOneScreenshot7.png)
 
 #### Williams %R(%R) 
 ![WR Chart](/images/IntelligentOneScreenshot6.png)
 
-#### Relative Strength Index(RSI) 
-![RSI Chart](/images/IntelligentOneScreenshot7.png)
-
-#### On Balance Volume(OBV)
-![OBV Chart](/images/IntelligentOneScreenshot8.png)
+#### Fast Stochastic Oscillator(FSO) 
+![FSO Chart](/images/IntelligentOneScreenshot5.png)
 
 #### Average Directional Index(ADX)
 ![ADX Chart](/images/IntelligentOneScreenshot10.png)
+
+#### On Balance Volume(OBV)
+![OBV Chart](/images/IntelligentOneScreenshot8.png)
 
 ### The Model Builder
 The ML model builder is a console application which is configurable. It creates a factory for each instrument and uses the AutoML.Net to build/train/evaluate the best model for each indicator.
