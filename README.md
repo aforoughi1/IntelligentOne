@@ -27,6 +27,9 @@ Bollinger Bands are a way to measure and visualize volatility.
 #### Moving Average Convergence Divergence(MACD)
 ![MACD Chart](/images/IntelligentOneScreenshot4.png)
 
+MACD is used to spot changes in the strength, direction, momentum, and duration of a trend in a stock's
+price. We generate a Buy signal when MACD Histogram is positive and Sell signal occurs when moves in the opposite direction.
+
 #### Moving Average Crossover (MACO)
 ![MA Chart](/images/IntelligentOneScreenshot9.png)
 
