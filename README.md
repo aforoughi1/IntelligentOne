@@ -64,6 +64,8 @@ Stochastic %K%D indicator belongs to the oscillators and its value is limited be
 #### On Balance Volume(OBV)
 ![OBV Chart](/images/IntelligentOneScreenshot8.png)
 
+OBV is a technical analysis indicator intended to relate price and volume in the stock market. The algorithm was used to predict an increase or decrease in Next day closing stock price direction. 
+
 ### The Model Builder
 The ML model builder is a console application which is configurable. It creates a factory for each instrument and uses the AutoML.Net to build/train/evaluate the best model for each indicator.
 
