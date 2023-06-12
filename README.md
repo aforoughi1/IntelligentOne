@@ -54,6 +54,10 @@ Overbought. At this point, we can start to look for opportunities to trade the s
 #### Fast Stochastic Oscillator(FSO) 
 ![FSO Chart](/images/IntelligentOneScreenshot5.png)
 
+Stochastic Oscillator (SO) is a momentum indicator that compares a stock’s closing price relative to the High-Low range over a given number of trading periods. As a rule, momentum changes before the price changes.
+
+Stochastic %K%D indicator belongs to the oscillators and its value is limited between 0 and 100. Values of %D line that are above 80 indicate that the security is overbought and the values below 20 that it is oversold. Buying and selling entry signals can also be generated when lines %K and %D are intersected: when %K crosses above %D and the value of the oscillator is below oversold(20), buying signal is generated. When the %K crosses below %D and the value of the oscillator is above overbought(80), selling signal is generated.
+
 #### Average Directional Index(ADX)
 ![ADX Chart](/images/IntelligentOneScreenshot10.png)
 
