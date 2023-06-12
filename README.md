@@ -47,6 +47,9 @@ RSI is a momentum indicator which determines whether the stock is overbought or 
 #### Williams %R(%R) 
 ![WR Chart](/images/IntelligentOneScreenshot6.png)
 
+The oscillator has a range of -100 to 0. Readings below -80 represent oversold territory and readings above -20 represent 
+Overbought. 
+
 #### Fast Stochastic Oscillator(FSO) 
 ![FSO Chart](/images/IntelligentOneScreenshot5.png)
 
