@@ -40,6 +40,10 @@ A trading Buy signal occurs when the MA20 cross-overs above the MA50 and a Sell 
 #### Relative Strength Index(RSI) 
 ![RSI Chart](/images/IntelligentOneScreenshot7.png)
 
+RSI is a momentum indicator which determines whether the stock is overbought or oversold.
+- When the RSI crosses the lower threshold (30) — buy shares, oversold
+- When the RSI crosses the upper threshold (70) — sell shares, overbought
+
 #### Williams %R(%R) 
 ![WR Chart](/images/IntelligentOneScreenshot6.png)
 
