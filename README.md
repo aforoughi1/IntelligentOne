@@ -61,7 +61,7 @@ Stochastic %K%D indicator belongs to the oscillators and its value is limited be
 #### Average Directional Index(ADX)
 ![ADX Chart](/images/IntelligentOneScreenshot10.png)
 
-ADX is an indicator of trend strength in a series of prices of a financial instrument. The following algorithms are calculated based on the Trend Strength (ADX)  and Trend Direction  (+DI and –DI):
+ADX is an indicator of trend strength in a series of prices of a financial instrument. The following signals are calculated based on the Trend Strength (ADX)  and Trend Direction  (+DI and –DI):
 - When +DI is Above -DI then trend is considered as an uptrend. 
 - When +DI is Below -DI then trend is considered as a downtrend.
 - Trend Strength : IF(ADX > 25,“Buy",“Sell")
