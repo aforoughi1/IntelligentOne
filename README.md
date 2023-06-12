@@ -51,7 +51,7 @@ W%R is a technical analysis oscillator showing the current closing price in rela
 The oscillator has a range of -100 to 0. Readings below -80 represent oversold territory and readings above -20 represent 
 Overbought. At this point, we can start to look for opportunities to trade the stock direction of the cross.
 
-#### Fast Stochastic Oscillator(SO) 
+#### Stochastic Oscillator(SO) 
 ![FSO Chart](/images/IntelligentOneScreenshot5.png)
 
 Stochastic Oscillator (SO) is a momentum indicator that compares a stock’s closing price relative to the High-Low range over a given number of trading periods. As a rule, momentum changes before the price changes.
