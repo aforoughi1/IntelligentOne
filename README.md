@@ -3,6 +3,12 @@ IntelligentOne is a platform for Model development for the Capital Markets. This
 
 ![IntelligentOne UWP App](/images/IntelligentOneScreenshot1.png)
 
+We have implemented several ML models based on our trading strategies:
+Regression Predictive Modelling problem (trying to forecast closing price of next day).
+Binary classification problem (price will go up or down).
+The Multiclass classifiers to predict ‘Buy’, ‘Hold’, or ‘Sell’ strategies.
+Time Series forecasting technique using, Single Spectrum Analysis (SSA) algorithm, that can be used to forecast closing price of next N day.
+
 The platform was verified against the following data types: stock, gold, and currency pair instruments.
 
 <img src="./images/IntelligentOneScreenshot0.png" alt="My Project Tickers" width="250" height="150">
