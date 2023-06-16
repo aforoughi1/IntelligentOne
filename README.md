@@ -116,7 +116,8 @@ The ML model builder is a console application which is configurable. It creates 
 
 ![The MlBuilder Config](/images/IntelligentOneScreenshot26.png)
 
-Identifying the right features influences the quality and performance of the ML algorithms. The Model Builder support the following tools:
+Identifying the right features influences the quality and performance of the ML algorithms.
+The Model Builder support the following tools:
 
 #### Data Analysis using BoxPlots
 The outliers are data points that diverges far away from other values. We need to detect anomalies when preparing datasets for machine learning models e.g., null values because of public holidays.
