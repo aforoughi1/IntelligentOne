@@ -31,12 +31,16 @@ Bollinger Bands are a way to measure and visualize volatility.
 MACD is used to spot changes in the strength, direction, momentum, and duration of a trend in a stock's
 price. We generate a Buy signal when MACD Histogram is positive and Sell signal occurs when moves in the opposite direction.
 
+Binary Classification Modelling is used to predict the trend ending or reversing.
+
 #### Moving Average Crossover (MACO)
 ![MA Chart](/images/IntelligentOneScreenshot9.png)
 
 We use two averages of different window sizes. The 50-day (a longer-term) moving average is the one that represents the overall trend of the market, while the 20-day (a shorter-term) one represents the more immediate price fluctuation and reacts quicker when the price changes. When the fast MA(20) crosses the slow MA(50) we detect a potential change of trend. 
 
-A trading Buy signal occurs when the MA20 cross-overs above the MA50 and a Sell signal occurs when cross-under during the opposite movement.
+A trading Buy signal occurs when the MA20 cross-overs above the MA50 and a Sell signal occurs when cross-under during the opposite movement. 
+
+Binary Classification Modelling is used to predict the trend ending or reversing.
 
 #### Relative Strength Index(RSI) 
 ![RSI Chart](/images/IntelligentOneScreenshot7.png)
