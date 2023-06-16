@@ -51,12 +51,16 @@ RSI is a momentum indicator which determines whether the stock is overbought or 
 - When the RSI crosses the lower threshold (30) — buy shares, oversold
 - When the RSI crosses the upper threshold (70) — sell shares, overbought
 
+We apply Multiclass Classification Modelling to predict a potential entry or exit point (Buy/Hold/Sell).
+
 #### Williams %R(%R) 
 ![WR Chart](/images/IntelligentOneScreenshot6.png)
 
 W%R is a technical analysis oscillator showing the current closing price in relation to the high and low of the past N days (for a given N).
 The oscillator has a range of -100 to 0. Readings below -80 represent oversold territory and readings above -20 represent 
 Overbought. At this point, we can start to look for opportunities to trade the stock direction of the cross.
+
+We apply Multiclass Classification Modelling to predict a potential entry or exit point (Buy/Hold/Sell).
 
 #### Stochastic Oscillator(SO) 
 ![FSO Chart](/images/IntelligentOneScreenshot5.png)
@@ -65,6 +69,8 @@ Stochastic Oscillator (SO) is a momentum indicator that compares a stock’s clo
 
 Stochastic %K%D indicator belongs to the oscillators and its value is limited between 0 and 100. Values of %D line that are above 80 indicate that the security is overbought and the values below 20 that it is oversold. Buying and selling entry signals can also be generated when lines %K and %D are intersected: when %K crosses above %D and the value of the oscillator is below oversold(20), buying signal is generated. When the %K crosses below %D and the value of the oscillator is above overbought(80), selling signal is generated.
 
+We apply Multiclass Classification Modelling to predict a potential entry or exit point (Buy/Hold/Sell).
+
 #### Average Directional Index(ADX)
 ![ADX Chart](/images/IntelligentOneScreenshot10.png)
 
@@ -72,6 +78,8 @@ ADX is an indicator of trend strength in a series of prices of a financial instr
 - When +DI is Above -DI then trend is considered as an uptrend. 
 - When +DI is Below -DI then trend is considered as a downtrend.
 - Trend Strength : IF(ADX > 25,“Buy",“Sell")
+
+Binary Classification Modelling is used to predict if trending in a specific direction and if elevated.
 
 #### On Balance Volume(OBV)
 ![OBV Chart](/images/IntelligentOneScreenshot8.png)
