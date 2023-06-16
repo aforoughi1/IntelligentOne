@@ -117,6 +117,7 @@ The ML model builder is a console application which is configurable. It creates 
 ![The MlBuilder Config](/images/IntelligentOneScreenshot26.png)
 
 Identifying the right features influences the quality and performance of the ML algorithms.
+
 The Model Builder support the following tools:
 
 #### Data Analysis using BoxPlots
