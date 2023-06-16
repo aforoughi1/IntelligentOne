@@ -25,6 +25,8 @@ Bollinger Bands are a way to measure and visualize volatility.
 - Closing prices above the upper Bollinger band may indicate that currently the stock price is too high and price may decrease soon. The market is said to be overbought. A Sell signal is generated.
 - Closing prices below the lower Bollinger band may be seen as a sign that prices are too low and they may be moving up soon. At this point the market for the stock is said to be oversold. A buy signal is generated.
 
+We apply Multiclass Callsification Moddeling to predict a potential entry or exit point (Buy/Hold/Sell).
+
 #### Moving Average Convergence Divergence(MACD)
 ![MACD Chart](/images/IntelligentOneScreenshot4.png)
 
