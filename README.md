@@ -89,7 +89,7 @@ OBV is a technical analysis indicator intended to relate price and volume in the
 We apply Multiclass Classification Modelling to predict a potential entry or exit point (Buy/Hold/Sell).
 
 #### The Sentiment Modelling
-Sentiment Analysis is, in a nutshell, the process of analysing pieces of text to determine the sentiment, whether they are positive or negative or neutral. Here, it is used to observe the Headlines and Regulatory News, and to determine the tone and the underlying information in source materials. 
+Sentiment Analysis is, in a nutshell, the process of analysing pieces of text to determine the sentiment, whether they are positive, negative or neutral. Here, it is used to observe the Headlines and Regulatory News, and to determine the tone and the underlying information in source materials. 
 
 To extract the features from the news headlines, we use the natural language processing (NLP) to capture the features in the financial domain. We make use of FinBERT for this task. 
 
