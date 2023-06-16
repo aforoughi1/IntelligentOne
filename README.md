@@ -86,7 +86,7 @@ Binary Classification Modelling is used to predict if trending in a specific dir
 
 OBV is a technical analysis indicator intended to relate price and volume in the stock market. The algorithm was used to predict an increase or decrease in Next day closing stock price direction. 
 
-Binary Classification Modelling is used to predict the trend ending or reversing.
+We apply Multiclass Classification Modelling to predict a potential entry or exit point (Buy/Hold/Sell).
 
 #### The Sentiment Modelling
 Sentiment Analysis is, in a nutshell, the process of analysing pieces of text to determine the sentiment, whether they are positive or negative or neutral. Here, it is used to observe the Headlines and Regulatory News, and to determine the tone and the underlying information in source materials. 
