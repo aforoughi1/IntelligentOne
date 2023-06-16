@@ -88,6 +88,27 @@ OBV is a technical analysis indicator intended to relate price and volume in the
 
 Binary Classification Modelling is used to predict the trend ending or reversing.
 
+#### The Sentiment Modelling
+Sentiment Analysis is, in a nutshell, the process of analysing pieces of text to determine the sentiment, whether they are positive or negative or neutral. Here, it is used to observe the Headlines and Regulatory News, and to determine the tone and the underlying information in source materials. 
+
+To extract the features from the news headlines, we use the natural language processing (NLP) to capture the features in the financial domain. We make use of FinBERT for this task. 
+
+The FinBERT is a Transformer model pretrained fully on financial articles (the language model on a financial corpus). It is further Finetuned using the labelled Financial Sentiment’s dictionary (Financial Phrase Bank by Malo et al. 2014), which has mapped the 
+words: sentence | sentiment. The language model is based on the BERT (Bidirectional Encoder Representations) model, a deep neural network, which was developed by Google in 2018.
+
+![The SM App](/images/IntelligentOneSentimentAnalysis1.png)
+
+The Deep Learning model is 80% accurate. 
+
+![The SM Results](/images/IntelligentOneSentimentAnalysis2.png)
+ 
+#### Forecasting Earning Surprises
+Many analysts produce earnings estimates for listed companies. The consensus earnings estimate is an average of these estimates. Share prices can move significantly if there are any surprises, such as when actual reported earnings differ greatly from analysts’ estimates.
+
+In order to determine whether a stock falls into Buy, Sell, or Hold classes, we use machine learning and Time Series Forecast /Single Spectrum Analysis task to predict the occurrence of earnings surprises. We shown that past earnings (EPS), current analyst forecasts, and differences  between the two are the most important features for predicting future earnings surprises.
+
+![image](/images/IntelligentOneEarningSurprises.png)
+
 ### The Model Builder
 The ML model builder is a console application which is configurable. It creates a factory for each instrument and uses the AutoML.Net to build/train/evaluate the best model for each indicator.
 
@@ -112,26 +133,7 @@ There are classification algorithms that are designed to separate the data by co
 
 ![The CH](/images/IntelligentOneScreenshot18.png)
 
-#### The Sentiment Modelling
-Sentiment Analysis is, in a nutshell, the process of analysing pieces of text to determine the sentiment, whether they are positive or negative or neutral. Here, it is used to observe the Headlines and Regulatory News, and to determine the tone and the underlying information in source materials. 
 
-To extract the features from the news headlines, we use the natural language processing (NLP) to capture the features in the financial domain. We make use of FinBERT for this task. 
-
-The FinBERT is a Transformer model pretrained fully on financial articles (the language model on a financial corpus). It is further Finetuned using the labelled Financial Sentiment’s dictionary (Financial Phrase Bank by Malo et al. 2014), which has mapped the 
-words: sentence | sentiment. The language model is based on the BERT (Bidirectional Encoder Representations) model, a deep neural network, which was developed by Google in 2018.
-
-![The SM App](/images/IntelligentOneSentimentAnalysis1.png)
-
-The Deep Learning model is 80% accurate. 
-
-![The SM Results](/images/IntelligentOneSentimentAnalysis2.png)
- 
-#### Forecasting Earning Surprises
-Many analysts produce earnings estimates for listed companies. The consensus earnings estimate is an average of these estimates. Share prices can move significantly if there are any surprises, such as when actual reported earnings differ greatly from analysts’ estimates.
-
-In order to determine whether a stock falls into Buy, Sell, or Hold classes, we use machine learning and Time Series Forecast /Single Spectrum Analysis task to predict the occurrence of earnings surprises. We shown that past earnings (EPS), current analyst forecasts, and differences  between the two are the most important features for predicting future earnings surprises.
-
-![image](/images/IntelligentOneEarningSurprises.png)
 
 
 
