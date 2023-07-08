@@ -91,6 +91,8 @@ We apply Multiclass Classification Modelling to predict a potential entry or exi
 #### 5 days Close Price Forecast
 Our goal is here to forecast where to set our stop-loss order.
 
+![ndaysforcast](/images/IntelligentOne5DaysForcast.png)
+
 We apply Time Series Forecast /Single Spectrum Analysis (SSA) to series of Price rate-of-change (ROC), which shows the relative difference between the closing price on the day of forecast and the closing price n days previously.
 
 #### The Sentiment Modelling
