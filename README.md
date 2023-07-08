@@ -88,6 +88,11 @@ OBV is a technical analysis indicator intended to relate price and volume in the
 
 We apply Multiclass Classification Modelling to predict a potential entry or exit point (Buy/Hold/Sell).
 
+#### 5 days Close Price Forecast
+Our goal is here to forecast where to set our stop-loss order.
+
+We apply Time Series Forecast /Single Spectrum Analysis (SSA) to series of Price rate-of-change (ROC), which shows the relative difference between the closing price on the day of forecast and the closing price n days previously.
+
 #### The Sentiment Modelling
 Sentiment Analysis is, in a nutshell, the process of analysing pieces of text to determine the sentiment, whether they are positive, negative or neutral. Here, it is used to observe the Headlines and Regulatory News, and to determine the tone and the underlying information in source materials. 
 
