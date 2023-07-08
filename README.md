@@ -117,7 +117,7 @@ In order to determine whether a stock falls into Buy, Sell, or Hold classes, we 
 ![image](/images/IntelligentOneEarningSurprises.png)
 
 ### The Model Builder
-The ML model builder is a console application which is configurable. It creates a factory for each instrument and uses the AutoML.Net to build/train/evaluate the best model for each indicator.
+The ML model builder is a console application which is configurable and implements our Modelling Methodology. It creates a factory for each instrument and uses the AutoML.Net to build/train/evaluate the best model for each indicator. The Modelling Methodology uses template based design pattern for each ML tasks.
 
 ![The MlBuilder](/images/IntelligentOneScreenshot25.png)
 
