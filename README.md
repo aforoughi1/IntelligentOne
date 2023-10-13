@@ -41,7 +41,7 @@ We use two averages of different window sizes. The 50-day (a longer-term) moving
 
 A signal to buy (as represented by green up-triangle) is triggered when the MA20 cross-overs above the MA50. This shows a shift in trend i.e. the average price over last 20 days has risen above the average price of past 50 days. 
 
-A signal to sell (as represented by red down-triangle) is triggered when occurs when cross-under during the opposite movement, indicating that the average price in last 20 days has fallen below the average price of the last 50 days.
+A signal to sell (as represented by red down-triangle) is triggered when cross-under during the opposite movement, indicating that the average price in last 20 days has fallen below the average price of the last 50 days.
 
 Binary Classification Modelling is used to predict the trend ending or reversing.
 
