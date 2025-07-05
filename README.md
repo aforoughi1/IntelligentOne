@@ -40,7 +40,6 @@ To predict potential trend reversals or endings, we apply binary classification 
 ![MACD Chart](/images/IntelligentOneScreenshot4.png)
 
 #### Moving Average Crossover (MACO)
-![MA Chart](/images/IntelligentOneScreenshot9.png)
 
 We utilize two moving averages with different window sizes: the 50-day average, which reflects the long-term market trend, and the 20-day average, which captures short-term price fluctuations and responds more quickly to changes.
 
@@ -51,6 +50,8 @@ A buy signal (represented by a green up-triangle) is triggered when the MA20 cro
 A sell signal (represented by a red down-triangle) is triggered when the MA20 crosses below the MA50, suggesting that recent prices have declined relative to the longer-term trend, potentially signaling bearish reversal.
 
 We apply binary classification modelling to predict whether a trend is ending or reversing, using this crossover logic as a key input feature.
+
+![MA Chart](/images/IntelligentOneScreenshot9.png)
 
 #### Relative Strength Index(RSI) 
 ![RSI Chart](/images/IntelligentOneScreenshot7.png)
