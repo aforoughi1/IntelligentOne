@@ -171,7 +171,10 @@ Training datasets can be validated for relationships between variables by calcul
 ![The PCC](/images/IntelligentOneScreenshot17.png)
 
 #### The Linearly Separability test
-There are classification algorithms that are designed to separate the data by constructing a linear decision Boundary (hyperplane) to the classes. The data sets can be verified for linearly separability or not by constructing their convex hulls.
+
+Certain classification algorithms, such as Support Vector Machines (SVM) and logistic regression, are designed to separate data points by constructing a linear decision boundary (hyperplane) between classes.
+
+To assess whether a dataset is linearly separable, one can analyze the geometry of the data by constructing convex hulls for each class. If the convex hulls do not intersect, it suggests that a linear separation is feasible. Conversely, overlapping hulls may indicate the need for more complex or non-linear classification techniques.
 
 ![The CH](/images/IntelligentOneScreenshot18.png)
 
