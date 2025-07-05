@@ -123,16 +123,16 @@ By analyzing ROC patterns over time, the model can anticipate potential price mo
 ![ndaysforcast](/images/IntelligentOne5DaysForcast.png)
 
 #### The Sentiment Modelling
-Sentiment Analysis is, in a nutshell, the process of analysing pieces of text to determine the sentiment, whether they are positive, negative or neutral. Here, it is used to observe the Headlines and Regulatory News, and to determine the tone and the underlying information in source materials. 
 
-To extract the features from the news headlines, we use the natural language processing (NLP) to capture the features in the financial domain. We make use of FinBERT for this task. 
+Sentiment Analysis is the process of examining text to determine its emotional tone—classifying it as positive, negative, or neutral. In our case, this technique is applied to headlines and regulatory news to assess both the sentiment and the deeper context embedded within financial source materials.
 
-The FinBERT is a Transformer model pretrained fully on financial articles (the language model on a financial corpus). It is further Finetuned using the labelled Financial Sentiment’s dictionary (Financial Phrase Bank by Malo et al. 2014), which has mapped the 
-words: sentence | sentiment. The language model is based on the BERT (Bidirectional Encoder Representations) model, a deep neural network, which was developed by Google in 2018.
+To extract meaningful features from news headlines, we employ natural language processing (NLP) tailored to the financial domain. For this task, we leverage FinBERT—a transformer-based language model pretrained entirely on financial articles.
+
+FinBERT is based on BERT (Bidirectional Encoder Representations from Transformers), a deep neural network architecture developed by Google in 2018. It is further fine-tuned using labeled data from the Financial Phrase Bank by Malo et al. (2014), which maps financial text snippets to sentiment labels. This specialized training enables FinBERT to accurately interpret the sentiment and relevance of financial language.
 
 ![The SM App](/images/IntelligentOneSentimentAnalysis1.png)
 
-The result below, it demonstrates the Deep Learning model is exceedingly accurate. 
+The results below demonstrate that the Deep Learning model is highly accurate.
 
 ![The SM Results](/images/IntelligentOneSentimentAnalysis2.png)
  
