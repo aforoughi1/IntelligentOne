@@ -1,5 +1,5 @@
 # IntelligentOne
-IntelligentOne is a cutting-edge platform designed for predictive modelling in capital markets, leveraging machine learning (ML) across technical indicators, financial metrics, and sentiment analysis. It systematically processes vast volumes of historical market data, news articles, balance sheets, and income statements.
+IntelligentOne is an AI-powered platform designed for predictive modelling in capital markets, leveraging machine learning (ML) across technical indicators, financial metrics, and sentiment analysis. It systematically processes vast volumes of historical market data, news articles, balance sheets, and income statements.
 
 The platform performs end-to-end data engineering, constructing relevant indicators and extracting key features that feed into a robust ML modelling pipeline. Utilizing AutoML.Net, IntelligentOne evaluates a wide range of machine learning algorithms to automatically identify the optimal predictive models.
 
