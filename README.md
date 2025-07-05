@@ -21,7 +21,6 @@ The platform was verified using the following asset classes: stocks, gold, and c
 
 ### Technical Indicators/Charts
 #### Bollinger Bands(BB)
-![BB Chart](/images/IntelligentOneScreenshot3.png)
 
 Bollinger Bands are a technical analysis tool used to measure and visualize market volatility.
 
@@ -29,6 +28,8 @@ Bollinger Bands are a technical analysis tool used to measure and visualize mark
 - Closing prices below the lower Bollinger Band may imply that the stock is undervalued, potentially signaling a price increase. Here, the market is deemed oversold, and a buy signal may be triggered.
 
 To identify potential entry or exit points—categorized as Buy, Hold, or Sell—we employ multiclass classification modelling, which leverages machine learning to make data-driven predictions.
+
+![BB Chart](/images/IntelligentOneScreenshot3.png)
 
 #### Moving Average Convergence Divergence(MACD)
 
