@@ -54,7 +54,6 @@ We apply binary classification modelling to predict whether a trend is ending or
 ![MA Chart](/images/IntelligentOneScreenshot9.png)
 
 #### Relative Strength Index(RSI) 
-![RSI Chart](/images/IntelligentOneScreenshot7.png)
 
 RSI (Relative Strength Index) is a momentum indicator used to determine whether a stock is overbought or oversold.
 - When the RSI falls below the lower threshold (30), it suggests the stock is oversold—a buy signal may be generated.
@@ -62,8 +61,9 @@ RSI (Relative Strength Index) is a momentum indicator used to determine whether 
 
 To predict potential entry or exit points—classified as Buy, Hold, or Sell—we apply multiclass classification modelling, which enables objective decision-making based on historical RSI patterns and market dynamics.
 
+![RSI Chart](/images/IntelligentOneScreenshot7.png)
+
 #### Williams %R(%R) 
-![WR Chart](/images/IntelligentOneScreenshot6.png)
 
 W%R (Williams %R) is a momentum-based technical oscillator that compares the current closing price to the high and low prices over a specified lookback period (N days). The indicator ranges from -100 to 0, with:
 
@@ -74,8 +74,9 @@ These threshold levels signal potential trading opportunities based on direction
 
 To classify these opportunities as Buy, Hold, or Sell, we employ multiclass classification modelling, using historical patterns and W%R signals to train predictive algorithms.
 
+![WR Chart](/images/IntelligentOneScreenshot6.png)
+
 #### Stochastic Oscillator(SO) 
-![FSO Chart](/images/IntelligentOneScreenshot5.png)
 
 Stochastic Oscillator (SO) is a momentum indicator that compares a stock’s closing price to its high-low range over a defined number of trading periods. It is based on the principle that momentum typically shifts before price does, making it a useful tool for identifying potential turning points.
 
@@ -93,8 +94,9 @@ A sell signal is triggered when %K crosses below %D and the oscillator value is 
 
 To classify these potential actions into Buy, Hold, or Sell, we utilize multiclass classification modelling, which learns from historical indicator behaviors to support predictive decision-making.
 
+![FSO Chart](/images/IntelligentOneScreenshot5.png)
+
 #### Average Directional Index(ADX)
-![ADX Chart](/images/IntelligentOneScreenshot10.png)
 
 ADX (Average Directional Index) is a technical indicator used to measure the strength of a trend in the price series of a financial instrument. It is often evaluated alongside the +DI (Positive Directional Indicator) and –DI (Negative Directional Indicator) to assess both trend strength and trend direction.
 
@@ -106,14 +108,17 @@ Trend strength is interpreted as follows: IF (ADX > 25), then "Buy"; else "Sell"
 
 To predict whether a trend is present and its directional bias, we utilize binary classification modelling, which identifies elevated market conditions and infers trend reversals or continuations based on historical ADX and DI patterns.
 
+![ADX Chart](/images/IntelligentOneScreenshot10.png)
+
 #### On Balance Volume(OBV)
-![OBV Chart](/images/IntelligentOneScreenshot8.png)
 
 OBV (On-Balance Volume) is a technical analysis indicator that relates price movements to trading volume, aiming to identify momentum shifts in the market. By tracking volume flow, OBV can signal whether buying or selling pressure is dominating.
 
 In our approach, the algorithm analyzes OBV trends to predict the direction of the next day's closing stock price—whether it's likely to increase or decrease.
 
 To determine actionable trading signals—Buy, Hold, or Sell—we apply multiclass classification modelling, leveraging historical price-volume relationships to support informed decision-making.
+
+![OBV Chart](/images/IntelligentOneScreenshot8.png)
 
 #### 5 days Close Price Forecast
 
