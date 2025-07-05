@@ -4,6 +4,7 @@ IntelligentOne is a cutting-edge platform designed for predictive modelling in c
 The platform performs end-to-end data engineering, constructing relevant indicators and extracting key features that feed into a robust ML modelling pipeline. Utilizing AutoML.Net, IntelligentOne evaluates a wide range of machine learning algorithms to automatically identify the optimal predictive models.
 
 Its intuitive user interface (UI) integrates dynamic charting with trained model outputs, enhancing analytical depth and supporting data-driven decision-making.
+
 ![IntelligentOne UWP App](/images/IntelligentOneScreenshot1.png)
 
 We have implemented several ML models to answer the following trading strategy questions:
