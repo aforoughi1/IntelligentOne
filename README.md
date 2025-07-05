@@ -145,15 +145,18 @@ To determine whether a stock should be classified as Buy, Sell, or Hold, we appl
 ![image](/images/IntelligentOneEarningSurprises.png)
 
 ### The Model Builder
-The ML model builder is a console application which is configurable and implements our Modelling Methodology. It creates a factory for each instrument and uses the AutoML.Net to build/train/evaluate the best model for each indicator. The Modelling Methodology uses template based design pattern for each ML tasks.
+
+The ML model builder is a configurable console application that implements our Modelling Methodology. It creates a dedicated factory for each financial instrument and leverages AutoML.Net to build, train, and evaluate the most suitable model for each technical indicator.
+
+Our Modelling Methodology employs a template-based design pattern to streamline and standardize the implementation of various ML tasks.
+
+Accurate feature selection plays a critical role in determining the quality and performance of the machine learning algorithms.
 
 ![The MlBuilder](/images/IntelligentOneScreenshot25.png)
 
 ![The MlBuilder Config](/images/IntelligentOneScreenshot26.png)
 
-Identifying the right features influences the quality and performance of the ML algorithms.
-
-The Model Builder support the following tools:
+The Model Builder supports the following tools:
 
 #### Data Analysis using BoxPlots
 The outliers are data points that diverges far away from other values. We need to detect anomalies when preparing datasets for machine learning models e.g., null values because of public holidays.
