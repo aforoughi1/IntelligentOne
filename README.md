@@ -7,13 +7,13 @@ Its intuitive user interface (UI) merges real-time charting with trained model o
 
 ![IntelligentOne UWP App](/images/IntelligentOneScreenshot1.png)
 
-We have implemented several ML models to answer the following trading strategy questions:
+We have implemented several machine learning (ML) models to address key trading strategy questions:
 - Is the price action trending in a specific direction?
 - Is the trend ending or reversing?
-- Is there a potential entry or exit point? 
-- What are predicted closing price of next 5 days?
-- What are the Market Sentiments?
-- Is there a potential Earnings Surprise?
+- Are there potential entry or exit points? 
+- What are the predicted closing prices for the next five days?
+- What is the current market sentiment?
+- Is there a potential earnings surprise?
 
 The platform was verified against the following data types: stock, gold, and currency pair instruments. For examples:
 
