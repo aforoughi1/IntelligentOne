@@ -62,11 +62,14 @@ To predict potential entry or exit points—classified as Buy, Hold, or Sell—w
 #### Williams %R(%R) 
 ![WR Chart](/images/IntelligentOneScreenshot6.png)
 
-W%R is a technical analysis oscillator showing the current closing price in relation to the high and low of the past N days (for a given N).
-The oscillator has a range of -100 to 0. Readings below -80 represent oversold territory and readings above -20 represent 
-Overbought. At this point, we can start to look for opportunities to trade the stock direction of the cross.
+W%R (Williams %R) is a momentum-based technical oscillator that compares the current closing price to the high and low prices over a specified lookback period (N days). The indicator ranges from -100 to 0, with:
 
-We apply Multiclass Classification Modelling to predict a potential entry or exit point (Buy/Hold/Sell).
+Readings below -80 indicating oversold conditions.
+Readings above -20 suggesting the asset is overbought.
+
+These threshold levels signal potential trading opportunities based on directional shifts. When the indicator crosses into or out of these zones, traders can evaluate possible entry or exit points.
+
+To classify these opportunities as Buy, Hold, or Sell, we employ multiclass classification modelling, using historical patterns and W%R signals to train predictive algorithms.
 
 #### Stochastic Oscillator(SO) 
 ![FSO Chart](/images/IntelligentOneScreenshot5.png)
