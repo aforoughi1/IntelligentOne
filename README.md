@@ -106,9 +106,11 @@ To predict whether a trend is present and its directional bias, we utilize binar
 #### On Balance Volume(OBV)
 ![OBV Chart](/images/IntelligentOneScreenshot8.png)
 
-OBV is a technical analysis indicator intended to relate price and volume in the stock market. The algorithm was used to predict an increase or decrease in Next day closing stock price direction. 
+OBV (On-Balance Volume) is a technical analysis indicator that relates price movements to trading volume, aiming to identify momentum shifts in the market. By tracking volume flow, OBV can signal whether buying or selling pressure is dominating.
 
-We apply Multiclass Classification Modelling to predict a potential entry or exit point (Buy/Hold/Sell).
+In our approach, the algorithm analyzes OBV trends to predict the direction of the next day's closing stock price—whether it's likely to increase or decrease.
+
+To determine actionable trading signals—Buy, Hold, or Sell—we apply multiclass classification modelling, leveraging historical price-volume relationships to support informed decision-making.
 
 #### 5 days Close Price Forecast
 Our goal is here to forecast where to set our stop-loss order.
