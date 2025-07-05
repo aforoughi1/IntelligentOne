@@ -113,11 +113,14 @@ In our approach, the algorithm analyzes OBV trends to predict the direction of t
 To determine actionable trading signals—Buy, Hold, or Sell—we apply multiclass classification modelling, leveraging historical price-volume relationships to support informed decision-making.
 
 #### 5 days Close Price Forecast
-Our goal is here to forecast where to set our stop-loss order.
+
+Our goal is to forecast optimal placement for stop-loss orders, helping to manage risk and protect capital in volatile market conditions.
+
+To achieve this, we apply time series forecasting using Single Spectrum Analysis (SSA) on the Rate of Change (ROC)—a momentum metric that measures the relative difference between the forecast day's closing price and the closing price n days earlier.
+
+By analyzing ROC patterns over time, the model can anticipate potential price movements and suggest data-driven stop-loss levels tailored to current market behavior.
 
 ![ndaysforcast](/images/IntelligentOne5DaysForcast.png)
-
-We apply Time Series Forecast /Single Spectrum Analysis (SSA) to series of Price rate-of-change (ROC), which shows the relative difference between the closing price on the day of forecast and the closing price n days previously.
 
 #### The Sentiment Modelling
 Sentiment Analysis is, in a nutshell, the process of analysing pieces of text to determine the sentiment, whether they are positive, negative or neutral. Here, it is used to observe the Headlines and Regulatory News, and to determine the tone and the underlying information in source materials. 
