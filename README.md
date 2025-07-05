@@ -40,13 +40,15 @@ To predict potential trend reversals or endings, we apply binary classification 
 #### Moving Average Crossover (MACO)
 ![MA Chart](/images/IntelligentOneScreenshot9.png)
 
-We use two averages of different window sizes. The 50-day (a longer-term) moving average is the one that represents the overall trend of the market, while the 20-day (a shorter-term) one represents the more immediate price fluctuation and reacts quicker when the price changes. When the fast MA(20) crosses the slow MA(50) we detect a potential change of trend. 
+We utilize two moving averages with different window sizes: the 50-day average, which reflects the long-term market trend, and the 20-day average, which captures short-term price fluctuations and responds more quickly to changes.
 
-A signal to buy (as represented by green up-triangle) is triggered when the MA20 cross-overs above the MA50. This shows a shift in trend i.e. the average price over last 20 days has risen above the average price of past 50 days. 
+A potential trend shift is detected when the fast MA(20) crosses the slow MA(50):
 
-A signal to sell (as represented by red down-triangle) is triggered when cross-under during the opposite movement, indicating that the average price in last 20 days has fallen below the average price of the last 50 days.
+A buy signal (represented by a green up-triangle) is triggered when the MA20 crosses above the MA50, indicating that the average price over the last 20 days has risen above the 50-day average—a sign of bullish momentum.
 
-Binary Classification Modelling is used to predict the trend ending or reversing.
+A sell signal (represented by a red down-triangle) is triggered when the MA20 crosses below the MA50, suggesting that recent prices have declined relative to the longer-term trend, potentially signaling bearish reversal.
+
+We apply binary classification modelling to predict whether a trend is ending or reversing, using this crossover logic as a key input feature.
 
 #### Relative Strength Index(RSI) 
 ![RSI Chart](/images/IntelligentOneScreenshot7.png)
