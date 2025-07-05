@@ -23,12 +23,12 @@ The platform was verified using the following asset classes: stocks, gold, and c
 #### Bollinger Bands(BB)
 ![BB Chart](/images/IntelligentOneScreenshot3.png)
 
-Bollinger Bands are a way to measure and visualize volatility.
+Bollinger Bands are a technical analysis tool used to measure and visualize market volatility.
 
-- Closing prices above the upper Bollinger band may indicate that currently the stock price is too high and price may decrease soon. The market is said to be overbought. A Sell signal is generated.
-- Closing prices below the lower Bollinger band may be seen as a sign that prices are too low and they may be moving up soon. At this point the market for the stock is said to be oversold. A buy signal is generated.
+- Closing prices above the upper Bollinger Band may suggest that the stock is currently overvalued, indicating a possible price decline. In this scenario, the market is considered overbought, and a sell signal may be generated.
+- Closing prices below the lower Bollinger Band may imply that the stock is undervalued, potentially signaling a price increase. Here, the market is deemed oversold, and a buy signal may be triggered.
 
-We apply Multiclass Classification Modelling to predict a potential entry or exit point (Buy/Hold/Sell).
+To identify potential entry or exit points—categorized as Buy, Hold, or Sell—we employ multiclass classification modelling, which leverages machine learning to make data-driven predictions.
 
 #### Moving Average Convergence Divergence(MACD)
 ![MACD Chart](/images/IntelligentOneScreenshot4.png)
