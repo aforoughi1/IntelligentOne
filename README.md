@@ -82,15 +82,15 @@ Stochastic Oscillator (SO) is a momentum indicator that compares a stock’s clo
 
 The Stochastic %K and %D indicators are bounded between 0 and 100, functioning as classic oscillators:
 
-A %D value above 80 suggests the security is overbought.
+- A %D value above 80 suggests the security is overbought.
 
-A %D value below 20 indicates it is oversold.
+- A %D value below 20 indicates it is oversold.
 
 Entry and exit signals are often generated based on intersections between %K and %D:
 
-A buy signal is triggered when %K crosses above %D and the oscillator value is below 20, indicating a potential bullish reversal from oversold conditions.
+- A buy signal is triggered when %K crosses above %D and the oscillator value is below 20, indicating a potential bullish reversal from oversold conditions.
 
-A sell signal is triggered when %K crosses below %D and the oscillator value is above 80, pointing to a potential bearish reversal from overbought conditions.
+- A sell signal is triggered when %K crosses below %D and the oscillator value is above 80, pointing to a potential bearish reversal from overbought conditions.
 
 To classify these potential actions into Buy, Hold, or Sell, we utilize multiclass classification modelling, which learns from historical indicator behaviors to support predictive decision-making.
 
