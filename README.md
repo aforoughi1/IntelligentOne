@@ -159,7 +159,8 @@ Accurate feature selection plays a critical role in determining the quality and 
 The Model Builder supports the following tools:
 
 #### Data Analysis using BoxPlots
-The outliers are data points that diverges far away from other values. We need to detect anomalies when preparing datasets for machine learning models e.g., null values because of public holidays.
+
+Outliers are data points that significantly deviate from the rest of the dataset. Detecting anomalies is a crucial step when preparing data for machine learning models—for example, handling null values due to public holidays or other irregularities in time series data.
 
 ![The BoxPlot](/images/IntelligentOneScreenshot16.png)
 
