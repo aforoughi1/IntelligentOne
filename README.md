@@ -15,7 +15,7 @@ We have implemented several machine learning (ML) models to address key trading 
 - What is the current market sentiment?
 - Is there a potential earnings surprise?
 
-The platform was verified against the following data types: stock, gold, and currency pair instruments. For examples:
+The platform was verified using the following asset classes: stocks, gold, and currency pairs. For example:
 
 <img src="./images/IntelligentOneScreenshot0.png" alt="My Project Tickers" width="250" height="150">
 
