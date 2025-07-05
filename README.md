@@ -165,7 +165,8 @@ Outliers are data points that significantly deviate from the rest of the dataset
 ![The BoxPlot](/images/IntelligentOneScreenshot16.png)
 
 #### The Pearson Correlation Coefficient
-The training data sets can be verified for the correlation between different properties by constructing the Pearson Correlation Coefficients.
+
+Training datasets can be validated for relationships between variables by calculating the Pearson correlation coefficients, which quantify the linear correlation between pairs of features. This statistical measure helps determine whether—and how strongly—two variables are related, guiding effective feature selection and reducing potential multicollinearity in machine learning models.
 
 ![The PCC](/images/IntelligentOneScreenshot17.png)
 
