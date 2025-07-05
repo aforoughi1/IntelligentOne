@@ -100,31 +100,31 @@ To classify these potential actions into **Buy**, **Hold**, or **Sell**, we util
 
 ADX (Average Directional Index) is a technical indicator used to measure the strength of a trend in the price series of a financial instrument. It is often evaluated alongside the +DI (Positive Directional Indicator) and –DI (Negative Directional Indicator) to assess both trend strength and trend direction.
 
-- When +DI is above –DI, the trend is considered to be bullish (an uptrend).
+- When **+DI is above –DI**, the trend is considered to be **bullish** (an uptrend).
 
-- When +DI is below –DI, the trend is considered to be bearish (a downtrend).
+- When **+DI is below –DI**, the trend is considered to be **bearish** (a downtrend).
 
-- Trend strength is interpreted as follows: IF (ADX > 25), then "Buy"; else "Sell"—indicating sufficient momentum for trend-based decision-making.
+- **Trend strength** is interpreted as follows: IF (ADX > 25), then "Buy"; else "Sell"—indicating sufficient momentum for trend-based decision-making.
 
-To predict whether a trend is present and its directional bias, we utilize binary classification modelling, which identifies elevated market conditions and infers trend reversals or continuations based on historical ADX and DI patterns.
+To predict whether a trend is present and its directional bias, we utilize **binary classification modelling**, which identifies elevated market conditions and infers trend reversals or continuations based on historical ADX and DI patterns.
 
 ![ADX Chart](/images/IntelligentOneScreenshot10.png)
 
 #### On Balance Volume(OBV)
 
-OBV (On-Balance Volume) is a technical analysis indicator that relates price movements to trading volume, aiming to identify momentum shifts in the market. By tracking volume flow, OBV can signal whether buying or selling pressure is dominating.
+OBV (**On-Balance Volume**) is a technical analysis indicator that relates price movements to trading volume, aiming to identify momentum shifts in the market. By tracking volume flow, OBV can signal whether buying or selling pressure is dominating.
 
 In our approach, the algorithm analyzes OBV trends to predict the direction of the next day's closing stock price—whether it's likely to increase or decrease.
 
-To determine actionable trading signals—Buy, Hold, or Sell—we apply multiclass classification modelling, leveraging historical price-volume relationships to support informed decision-making.
+To determine actionable trading signals—**Buy**, **Hold**, or **Sell**—we apply **multiclass classification modelling**, leveraging historical price-volume relationships to support informed decision-making.
 
 ![OBV Chart](/images/IntelligentOneScreenshot8.png)
 
 #### 5 days Close Price Forecast
 
-Our goal is to forecast optimal placement for stop-loss orders, helping to manage risk and protect capital in volatile market conditions.
+Our goal is to forecast optimal placement for **stop-loss orders**, helping to manage risk and protect capital in volatile market conditions.
 
-To achieve this, we apply time series forecasting using Single Spectrum Analysis (SSA) on the Rate of Change (ROC)—a momentum metric that measures the relative difference between the forecast day's closing price and the closing price n days earlier.
+To achieve this, we apply **time series forecasting** using **Single Spectrum Analysis** (SSA) on the **Rate of Change** (ROC)—a momentum metric that measures the relative difference between the forecast day's closing price and the closing price n days earlier.
 
 By analyzing ROC patterns over time, the model can anticipate potential price movements and suggest data-driven stop-loss levels tailored to current market behavior.
 
@@ -132,11 +132,11 @@ By analyzing ROC patterns over time, the model can anticipate potential price mo
 
 #### The Sentiment Modelling
 
-Sentiment Analysis is the process of examining text to determine its emotional tone—classifying it as positive, negative, or neutral. In our case, this technique is applied to headlines and regulatory news to assess both the sentiment and the deeper context embedded within financial source materials.
+**Sentiment Analysis** is the process of examining text to determine its emotional tone—classifying it as **positive**, **negative**, or **neutral**. In our case, this technique is applied to **headlines and regulatory news** to assess both the sentiment and the deeper context embedded within financial source materials.
 
-To extract meaningful features from news headlines, we employ natural language processing (NLP) tailored to the financial domain. For this task, we leverage FinBERT—a transformer-based language model pretrained entirely on financial articles.
+To extract meaningful features from news headlines, we employ **natural language processing** (NLP) tailored to the financial domain. For this task, we leverage **FinBERT**—a transformer-based language model pretrained entirely on financial articles.
 
-FinBERT is based on BERT (Bidirectional Encoder Representations from Transformers), a deep neural network architecture developed by Google in 2018. It is further fine-tuned using labeled data from the Financial Phrase Bank by Malo et al. (2014), which maps financial text snippets to sentiment labels. This specialized training enables FinBERT to accurately interpret the sentiment and relevance of financial language.
+FinBERT is based on BERT (Bidirectional Encoder Representations from Transformers), a deep neural network architecture developed by Google in 2018. It is further fine-tuned using labeled data from the **Financial Phrase Bank** by Malo et al. (2014), which maps financial text snippets to sentiment labels. This specialized training enables FinBERT to accurately interpret the sentiment and relevance of financial language.
 
 ![The SM App](/images/IntelligentOneSentimentAnalysis1.png)
 
@@ -146,19 +146,19 @@ The results below demonstrate that the Deep Learning model is highly accurate.
  
 #### Forecasting Earning Surprises
 
-Many analysts produce earnings estimates for publicly listed companies. The consensus earnings estimate represents the average of these individual forecasts. Share prices can move significantly when there are earnings surprises—such as when actual reported earnings differ markedly from the consensus.
+Many analysts produce earnings estimates for publicly listed companies. The **consensus earnings estimate** represents the average of these individual forecasts. Share prices can move significantly when there are **earnings surprises**—such as when actual reported earnings differ markedly from the consensus.
 
-To determine whether a stock should be classified as Buy, Sell, or Hold, we apply Single Spectrum Analysis (SSA) to forecast the likelihood of earnings surprises. Our findings show that past earnings (EPS), current analyst forecasts, and the discrepancies between the two are among the most critical features for predicting future earnings outcomes.
+To determine whether a stock should be classified as **Buy**, **Sell**, or **Hold**, we apply **Single Spectrum Analysis** (SSA) to forecast the likelihood of earnings surprises. Our findings show that past earnings (EPS), current analyst forecasts, and the discrepancies between the two are among the most critical features for predicting future earnings outcomes.
 
 ![image](/images/IntelligentOneEarningSurprises.png)
 
 ### The Model Builder
 
-The ML model builder is a configurable console application that implements our Modelling Methodology. It creates a dedicated factory for each financial instrument and leverages AutoML.Net to build, train, and evaluate the most suitable model for each technical indicator.
+The **ML model builder** is a configurable console application that implements our Modelling Methodology. It creates a dedicated factory for each financial instrument and leverages AutoML.Net to build, train, and evaluate the most suitable model for each technical indicator.
 
-Our Modelling Methodology employs a template-based design pattern to streamline and standardize the implementation of various ML tasks.
+Our **Modelling Methodology** employs a **template-based design pattern** to streamline and standardize the implementation of various ML tasks.
 
-Accurate feature selection plays a critical role in determining the quality and performance of the machine learning algorithms.
+Accurate **feature selection** plays a critical role in determining the quality and performance of the machine learning algorithms.
 
 ![The MlBuilder](/images/IntelligentOneScreenshot25.png)
 
@@ -168,7 +168,7 @@ The Model Builder supports the following tools:
 
 #### Data Analysis using BoxPlots
 
-Outliers are data points that significantly deviate from the rest of the dataset. Detecting anomalies is a crucial step when preparing data for machine learning models—for example, handling null values due to public holidays or other irregularities in time series data.
+**Outliers** are data points that significantly deviate from the rest of the dataset. Detecting anomalies is a crucial step when preparing data for machine learning models—for example, handling **null values due to public holidays** or other irregularities in time series data.
 
 ![The BoxPlot](/images/IntelligentOneScreenshot16.png)
 
@@ -180,9 +180,9 @@ Training datasets can be validated for relationships between variables by calcul
 
 #### The Linearly Separability test
 
-Certain classification algorithms, such as Support Vector Machines (SVM) and logistic regression, are designed to separate data points by constructing a linear decision boundary (hyperplane) between classes.
+Certain **classification algorithms**, such as **Support Vector Machines** (SVM) and **logistic regression**, are designed to separate data points by constructing a **linear decision boundary** (hyperplane) between classes.
 
-To assess whether a dataset is linearly separable, one can analyze the geometry of the data by constructing convex hulls for each class. If the convex hulls do not intersect, it suggests that a linear separation is feasible. Conversely, overlapping hulls may indicate the need for more complex or non-linear classification techniques.
+To assess whether a dataset is **linearly separable**, one can analyze the geometry of the data by constructing **convex hulls** for each class. If the convex hulls do not intersect, it suggests that a linear separation is feasible. Conversely, overlapping hulls may indicate the need for more complex or non-linear classification techniques.
 
 ![The CH](/images/IntelligentOneScreenshot18.png)
 
