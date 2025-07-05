@@ -74,11 +74,21 @@ To classify these opportunities as Buy, Hold, or Sell, we employ multiclass clas
 #### Stochastic Oscillator(SO) 
 ![FSO Chart](/images/IntelligentOneScreenshot5.png)
 
-Stochastic Oscillator (SO) is a momentum indicator that compares a stock’s closing price relative to the High-Low range over a given number of trading periods. As a rule, momentum changes before the price changes.
+Stochastic Oscillator (SO) is a momentum indicator that compares a stock’s closing price to its high-low range over a defined number of trading periods. It is based on the principle that momentum typically shifts before price does, making it a useful tool for identifying potential turning points.
 
-Stochastic %K%D indicator belongs to the oscillators and its value is limited between 0 and 100. Values of %D line that are above 80 indicate that the security is overbought and the values below 20 that it is oversold. Buying and selling entry signals can also be generated when lines %K and %D are intersected: when %K crosses above %D and the value of the oscillator is below oversold(20), buying signal is generated. When the %K crosses below %D and the value of the oscillator is above overbought(80), selling signal is generated.
+The Stochastic %K and %D indicators are bounded between 0 and 100, functioning as classic oscillators:
 
-We apply Multiclass Classification Modelling to predict a potential entry or exit point (Buy/Hold/Sell).
+A %D value above 80 suggests the security is overbought.
+
+A %D value below 20 indicates it is oversold.
+
+Entry and exit signals are often generated based on intersections between %K and %D:
+
+A buy signal is triggered when %K crosses above %D and the oscillator value is below 20, indicating a potential bullish reversal from oversold conditions.
+
+A sell signal is triggered when %K crosses below %D and the oscillator value is above 80, pointing to a potential bearish reversal from overbought conditions.
+
+To classify these potential actions into Buy, Hold, or Sell, we utilize multiclass classification modelling, which learns from historical indicator behaviors to support predictive decision-making.
 
 #### Average Directional Index(ADX)
 ![ADX Chart](/images/IntelligentOneScreenshot10.png)
