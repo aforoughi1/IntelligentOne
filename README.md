@@ -33,7 +33,7 @@ To identify potential entry or exit points—categorized as **Buy**, **Hold**, o
 
 #### Moving Average Convergence Divergence(MACD)
 
-MACD (Moving Average Convergence Divergence) is a momentum indicator used to detect changes in the strength, direction, and duration of a trend in a stock’s price. A **buy** signal is generated when the MACD histogram turns positive, suggesting upward momentum. Conversely, a **sell** signal is triggered when the histogram moves into negative territory, indicating bearish momentum.
+MACD (**Moving Average Convergence Divergence**) is a momentum indicator used to detect changes in the strength, direction, and duration of a trend in a stock’s price. A **buy** signal is generated when the MACD histogram turns positive, suggesting upward momentum. Conversely, a **sell** signal is triggered when the histogram moves into negative territory, indicating bearish momentum.
 
 To predict potential trend reversals or endings, we apply **binary classification modelling**, which enables the identification of directional shifts based on historical data patterns and technical signals.
 
@@ -41,31 +41,31 @@ To predict potential trend reversals or endings, we apply **binary classificatio
 
 #### Moving Average Crossover (MACO)
 
-We utilize two moving averages with different window sizes: the 50-day average, which reflects the long-term market trend, and the 20-day average, which captures short-term price fluctuations and responds more quickly to changes.
+We utilize two moving averages with different window sizes: the **50-day** average, which reflects the long-term market trend, and the **20-day** average, which captures short-term price fluctuations and responds more quickly to changes.
 
-A potential trend shift is detected when the fast MA(20) crosses the slow MA(50):
+A potential trend shift is detected when the **fast MA(20)** crosses the **slow MA(50)**:
 
-- A buy signal (represented by a green up-triangle) is triggered when the MA20 crosses above the MA50, indicating that the average price over the last 20 days has risen above the 50-day average—a sign of bullish momentum.
+- A **buy signal** (represented by a green up-triangle) is triggered when the MA20 crosses **above** the MA50, indicating that the average price over the last 20 days has risen above the 50-day average—a sign of bullish momentum.
 
-- A sell signal (represented by a red down-triangle) is triggered when the MA20 crosses below the MA50, suggesting that recent prices have declined relative to the longer-term trend, potentially signaling bearish reversal.
+- A **sell signal** (represented by a red down-triangle) is triggered when the MA20 crosses **below** the MA50, suggesting that recent prices have declined relative to the longer-term trend, potentially signaling bearish reversal.
 
-We apply binary classification modelling to predict whether a trend is ending or reversing, using this crossover logic as a key input feature.
+We apply **binary classification modelling** to predict whether a trend is ending or reversing, using this crossover logic as a key input feature.
 
 ![MA Chart](/images/IntelligentOneScreenshot9.png)
 
 #### Relative Strength Index(RSI) 
 
-RSI (Relative Strength Index) is a momentum indicator used to determine whether a stock is overbought or oversold.
-- When the RSI falls below the lower threshold (30), it suggests the stock is oversold—a buy signal may be generated.
-- When the RSI rises above the upper threshold (70), it indicates the stock is overbought—a sell signal may be appropriate.
+RSI (**Relative Strength Index**) is a momentum indicator used to determine whether a stock is **overbought** or **oversold**.
+- When the RSI falls below the lower threshold (30), it suggests the stock is oversold—a **buy** signal may be generated.
+- When the RSI rises above the upper threshold (70), it indicates the stock is overbought—a **sell** signal may be appropriate.
 
-To predict potential entry or exit points—classified as Buy, Hold, or Sell—we apply multiclass classification modelling, which enables objective decision-making based on historical RSI patterns and market dynamics.
+To predict potential entry or exit points—classified as **Buy**, **Hold**, or **Sell**—we apply **multiclass classification modelling**, which enables objective decision-making based on historical RSI patterns and market dynamics.
 
 ![RSI Chart](/images/IntelligentOneScreenshot7.png)
 
 #### Williams %R(%R) 
 
-W%R (Williams %R) is a momentum-based technical oscillator that compares the current closing price to the high and low prices over a specified lookback period (N days). The indicator ranges from -100 to 0, with:
+W%R (**Williams %R**) is a momentum-based technical oscillator that compares the current closing price to the high and low prices over a specified lookback period (N days). The indicator ranges from -100 to 0, with:
 
 - Readings below -80 indicating oversold conditions.
 - Readings above -20 suggesting the asset is overbought.
@@ -78,21 +78,21 @@ To classify these opportunities as Buy, Hold, or Sell, we employ multiclass clas
 
 #### Stochastic Oscillator(SO) 
 
-Stochastic Oscillator (SO) is a momentum indicator that compares a stock’s closing price to its high-low range over a defined number of trading periods. It is based on the principle that momentum typically shifts before price does, making it a useful tool for identifying potential turning points.
+**Stochastic Oscillator** (SO) is a momentum indicator that compares a stock’s closing price to its high-low range over a defined number of trading periods. It is based on the principle that **momentum typically shifts before price** **does**, making it a useful tool for identifying potential turning points.
 
-The Stochastic %K and %D indicators are bounded between 0 and 100, functioning as classic oscillators:
+The **Stochastic %K and %D** indicators are bounded between** 0 and 100**, functioning as classic oscillators:
 
-- A %D value above 80 suggests the security is overbought.
+- A **%D value above 80** suggests the security is overbought.
 
-- A %D value below 20 indicates it is oversold.
+- A **%D value below 20** indicates it is oversold.
 
-Entry and exit signals are often generated based on intersections between %K and %D:
+Entry and exit signals are often generated based on **intersections between %K and %D**:
 
-- A buy signal is triggered when %K crosses above %D and the oscillator value is below 20, indicating a potential bullish reversal from oversold conditions.
+- A **buy signal** is triggered when** %K crosses above %D** and the oscillator value is **below 20**, indicating a potential bullish reversal from oversold conditions.
 
-- A sell signal is triggered when %K crosses below %D and the oscillator value is above 80, pointing to a potential bearish reversal from overbought conditions.
+- A **sell signal** is triggered when **%K crosses below %D** and the oscillator value is **above 80**, pointing to a potential bearish reversal from overbought conditions.
 
-To classify these potential actions into Buy, Hold, or Sell, we utilize multiclass classification modelling, which learns from historical indicator behaviors to support predictive decision-making.
+To classify these potential actions into **Buy**, **Hold**, or **Sell**, we utilize **multiclass classification modelling**, which learns from historical indicator behaviors to support predictive decision-making.
 
 ![FSO Chart](/images/IntelligentOneScreenshot5.png)
 
