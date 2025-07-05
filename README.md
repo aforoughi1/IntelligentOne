@@ -33,9 +33,9 @@ To identify potential entry or exit points—categorized as **Buy**, **Hold**, o
 
 #### Moving Average Convergence Divergence(MACD)
 
-MACD (Moving Average Convergence Divergence) is a momentum indicator used to detect changes in the strength, direction, and duration of a trend in a stock’s price. A buy signal is generated when the MACD histogram turns positive, suggesting upward momentum. Conversely, a sell signal is triggered when the histogram moves into negative territory, indicating bearish momentum.
+MACD (Moving Average Convergence Divergence) is a momentum indicator used to detect changes in the strength, direction, and duration of a trend in a stock’s price. A **buy** signal is generated when the MACD histogram turns positive, suggesting upward momentum. Conversely, a **sell** signal is triggered when the histogram moves into negative territory, indicating bearish momentum.
 
-To predict potential trend reversals or endings, we apply binary classification modelling, which enables the identification of directional shifts based on historical data patterns and technical signals.
+To predict potential trend reversals or endings, we apply **binary classification modelling**, which enables the identification of directional shifts based on historical data patterns and technical signals.
 
 ![MACD Chart](/images/IntelligentOneScreenshot4.png)
 
