@@ -45,9 +45,9 @@ We utilize two moving averages with different window sizes: the 50-day average, 
 
 A potential trend shift is detected when the fast MA(20) crosses the slow MA(50):
 
-A buy signal (represented by a green up-triangle) is triggered when the MA20 crosses above the MA50, indicating that the average price over the last 20 days has risen above the 50-day average—a sign of bullish momentum.
+- A buy signal (represented by a green up-triangle) is triggered when the MA20 crosses above the MA50, indicating that the average price over the last 20 days has risen above the 50-day average—a sign of bullish momentum.
 
-A sell signal (represented by a red down-triangle) is triggered when the MA20 crosses below the MA50, suggesting that recent prices have declined relative to the longer-term trend, potentially signaling bearish reversal.
+- A sell signal (represented by a red down-triangle) is triggered when the MA20 crosses below the MA50, suggesting that recent prices have declined relative to the longer-term trend, potentially signaling bearish reversal.
 
 We apply binary classification modelling to predict whether a trend is ending or reversing, using this crossover logic as a key input feature.
 
