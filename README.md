@@ -137,9 +137,10 @@ The results below demonstrate that the Deep Learning model is highly accurate.
 ![The SM Results](/images/IntelligentOneSentimentAnalysis2.png)
  
 #### Forecasting Earning Surprises
-Many analysts produce earnings estimates for listed companies. The consensus earnings estimate is an average of these estimates. Share prices can move significantly if there are any surprises, such as when actual reported earnings differ greatly from analysts’ estimates.
 
-In order to determine whether a stock falls into Buy, Sell, or Hold classes, we use Single Spectrum Analysis (SSA) to predict the occurrence of earnings surprises. We shown that past earnings (EPS), current analyst forecasts, and differences  between the two are the most important features for predicting future earnings surprises.
+Many analysts produce earnings estimates for publicly listed companies. The consensus earnings estimate represents the average of these individual forecasts. Share prices can move significantly when there are earnings surprises—such as when actual reported earnings differ markedly from the consensus.
+
+To determine whether a stock should be classified as Buy, Sell, or Hold, we apply Single Spectrum Analysis (SSA) to forecast the likelihood of earnings surprises. Our findings show that past earnings (EPS), current analyst forecasts, and the discrepancies between the two are among the most critical features for predicting future earnings outcomes.
 
 ![image](/images/IntelligentOneEarningSurprises.png)
 
