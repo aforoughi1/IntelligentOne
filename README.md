@@ -100,11 +100,11 @@ To classify these potential actions into Buy, Hold, or Sell, we utilize multicla
 
 ADX (Average Directional Index) is a technical indicator used to measure the strength of a trend in the price series of a financial instrument. It is often evaluated alongside the +DI (Positive Directional Indicator) and –DI (Negative Directional Indicator) to assess both trend strength and trend direction.
 
-When +DI is above –DI, the trend is considered to be bullish (an uptrend).
+- When +DI is above –DI, the trend is considered to be bullish (an uptrend).
 
-When +DI is below –DI, the trend is considered to be bearish (a downtrend).
+- When +DI is below –DI, the trend is considered to be bearish (a downtrend).
 
-Trend strength is interpreted as follows: IF (ADX > 25), then "Buy"; else "Sell"—indicating sufficient momentum for trend-based decision-making.
+- Trend strength is interpreted as follows: IF (ADX > 25), then "Buy"; else "Sell"—indicating sufficient momentum for trend-based decision-making.
 
 To predict whether a trend is present and its directional bias, we utilize binary classification modelling, which identifies elevated market conditions and infers trend reversals or continuations based on historical ADX and DI patterns.
 
