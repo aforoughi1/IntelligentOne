@@ -63,9 +63,9 @@ To predict potential entry or exit points—classified as **Buy**, **Hold**, or 
 
 ![RSI Chart](/images/IntelligentOneScreenshot7.png)
 
-#### Williams %R(%R) 
+#### Williams %R(W%R) 
 
-W%R (**Williams %R**) is a momentum-based technical oscillator that compares the current closing price to the high and low prices over a specified lookback period (N days). The indicator ranges from -**100 to 0**, with:
+Williams %R is a momentum-based technical oscillator that compares the current closing price to the high and low prices over a specified lookback period (N days). The indicator ranges from -**100 to 0**, with:
 
 - Readings below -**80** indicating oversold conditions.
 - Readings above -**20** suggesting the asset is overbought.
