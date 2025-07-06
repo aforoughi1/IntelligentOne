@@ -20,7 +20,7 @@ The platform was verified using the following asset classes: stocks, gold, and c
 <img src="./images/IntelligentOneScreenshot0.png" alt="My Project Tickers" width="250" height="150">
 
 ### Technical Indicators/Charts
-#### Bollinger Bands(BB)
+#### Bollinger Bands (BB)
 
 Bollinger Bands are a technical analysis tool used to measure and visualize market volatility.
 
@@ -31,7 +31,7 @@ To identify potential entry or exit points—categorized as **Buy**, **Hold**, o
 
 ![BB Chart](/images/IntelligentOneScreenshot3.png)
 
-#### Moving Average Convergence Divergence(MACD)
+#### Moving Average Convergence Divergence (MACD)
 
 Moving Average Convergence Divergence is a momentum indicator used to detect changes in the strength, direction, and duration of a trend in a stock’s price. A **buy** signal is generated when the MACD histogram turns positive, suggesting upward momentum. Conversely, a **sell** signal is triggered when the histogram moves into negative territory, indicating bearish momentum.
 
@@ -53,7 +53,7 @@ We apply **binary classification modelling** to predict whether a trend is endin
 
 ![MA Chart](/images/IntelligentOneScreenshot9.png)
 
-#### Relative Strength Index(RSI) 
+#### Relative Strength Index (RSI) 
 
 Relative Strength Index is a momentum indicator used to determine whether a stock is **overbought** or **oversold**.
 - When the RSI falls below the lower threshold (30), it suggests the stock is oversold—a **buy** signal may be generated.
@@ -63,7 +63,7 @@ To predict potential entry or exit points—classified as **Buy**, **Hold**, or 
 
 ![RSI Chart](/images/IntelligentOneScreenshot7.png)
 
-#### Williams %R(W%R) 
+#### Williams %R (W%R) 
 
 Williams %R is a momentum-based technical oscillator that compares the current closing price to the high and low prices over a specified lookback period (N days). The indicator ranges from -**100 to 0**, with:
 
@@ -76,9 +76,9 @@ To classify these opportunities as **Buy**, **Hold**, or **Sell**, we employ **m
 
 ![WR Chart](/images/IntelligentOneScreenshot6.png)
 
-#### Stochastic Oscillator(SO) 
+#### Stochastic Oscillator (SO) 
 
-**Stochastic Oscillator** (SO) is a momentum indicator that compares a stock’s closing price to its high-low range over a defined number of trading periods. It is based on the principle that **momentum typically shifts before price** **does**, making it a useful tool for identifying potential turning points.
+Stochastic Oscillator is a momentum indicator that compares a stock’s closing price to its high-low range over a defined number of trading periods. It is based on the principle that **momentum typically shifts before price** **does**, making it a useful tool for identifying potential turning points.
 
 The **Stochastic %K and %D** indicators are bounded between** 0 and 100**, functioning as classic oscillators:
 
@@ -96,9 +96,9 @@ To classify these potential actions into **Buy**, **Hold**, or **Sell**, we util
 
 ![FSO Chart](/images/IntelligentOneScreenshot5.png)
 
-#### Average Directional Index(ADX)
+#### Average Directional Index (ADX)
 
-**Average Directional Index** (ADX) is a technical indicator used to measure the strength of a trend in the price series of a financial instrument. It is often evaluated alongside the +DI (Positive Directional Indicator) and –DI (Negative Directional Indicator) to assess both trend strength and trend direction.
+Average Directional Index is a technical indicator used to measure the strength of a trend in the price series of a financial instrument. It is often evaluated alongside the +DI (Positive Directional Indicator) and –DI (Negative Directional Indicator) to assess both trend strength and trend direction.
 
 - When **+DI is above –DI**, the trend is considered to be **bullish** (an uptrend).
 
@@ -110,9 +110,9 @@ To predict whether a trend is present and its directional bias, we utilize **bin
 
 ![ADX Chart](/images/IntelligentOneScreenshot10.png)
 
-#### On Balance Volume(OBV)
+#### On Balance Volume (OBV)
 
-**On-Balance Volume** (OBV) is a technical analysis indicator that relates price movements to trading volume, aiming to identify momentum shifts in the market. By tracking volume flow, OBV can signal whether buying or selling pressure is dominating.
+On-Balance Volume is a technical analysis indicator that relates price movements to trading volume, aiming to identify momentum shifts in the market. By tracking volume flow, OBV can signal whether buying or selling pressure is dominating.
 
 In our approach, the algorithm analyzes OBV trends to predict the direction of the next day's closing stock price—whether it's likely to increase or decrease.
 
@@ -132,7 +132,7 @@ By analyzing ROC patterns over time, the model can anticipate potential price mo
 
 #### The Sentiment Modelling
 
-**Sentiment Analysis** is the process of examining text to determine its emotional tone—classifying it as **positive**, **negative**, or **neutral**. In our case, this technique is applied to **headlines and regulatory news** to assess both the sentiment and the deeper context embedded within financial source materials.
+Sentiment Analysis is the process of examining text to determine its emotional tone—classifying it as **positive**, **negative**, or **neutral**. In our case, this technique is applied to **headlines and regulatory news** to assess both the sentiment and the deeper context embedded within financial source materials.
 
 To extract meaningful features from news headlines, we employ **natural language processing** (NLP) tailored to the financial domain. For this task, we leverage **FinBERT**—a transformer-based language model pretrained entirely on financial articles.
 
@@ -154,7 +154,7 @@ To determine whether a stock should be classified as **Buy**, **Sell**, or **Hol
 
 ### The Model Builder
 
-The **ML model builder** is a configurable console application that implements our Modelling Methodology. It creates a dedicated factory for each financial instrument and leverages AutoML.Net to build, train, and evaluate the most suitable model for each technical indicator.
+The ML model builder is a configurable console application that implements our Modelling Methodology. It creates a dedicated factory for each financial instrument and leverages AutoML.Net to build, train, and evaluate the most suitable model for each technical indicator.
 
 Our **Modelling Methodology** employs a **template-based design pattern** to streamline and standardize the implementation of various ML tasks.
 
