@@ -98,7 +98,7 @@ To classify these potential actions into **Buy**, **Hold**, or **Sell**, we util
 
 #### Average Directional Index(ADX)
 
-ADX (Average Directional Index) is a technical indicator used to measure the strength of a trend in the price series of a financial instrument. It is often evaluated alongside the +DI (Positive Directional Indicator) and –DI (Negative Directional Indicator) to assess both trend strength and trend direction.
+**Average Directional Index** (ADX) is a technical indicator used to measure the strength of a trend in the price series of a financial instrument. It is often evaluated alongside the +DI (Positive Directional Indicator) and –DI (Negative Directional Indicator) to assess both trend strength and trend direction.
 
 - When **+DI is above –DI**, the trend is considered to be **bullish** (an uptrend).
 
@@ -112,7 +112,7 @@ To predict whether a trend is present and its directional bias, we utilize **bin
 
 #### On Balance Volume(OBV)
 
-OBV (**On-Balance Volume**) is a technical analysis indicator that relates price movements to trading volume, aiming to identify momentum shifts in the market. By tracking volume flow, OBV can signal whether buying or selling pressure is dominating.
+**On-Balance Volume** (OBV) is a technical analysis indicator that relates price movements to trading volume, aiming to identify momentum shifts in the market. By tracking volume flow, OBV can signal whether buying or selling pressure is dominating.
 
 In our approach, the algorithm analyzes OBV trends to predict the direction of the next day's closing stock price—whether it's likely to increase or decrease.
 
