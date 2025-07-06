@@ -55,7 +55,7 @@ We apply **binary classification modelling** to predict whether a trend is endin
 
 #### Relative Strength Index(RSI) 
 
-RSI (**Relative Strength Index**) is a momentum indicator used to determine whether a stock is **overbought** or **oversold**.
+Relative Strength Index is a momentum indicator used to determine whether a stock is **overbought** or **oversold**.
 - When the RSI falls below the lower threshold (30), it suggests the stock is oversold—a **buy** signal may be generated.
 - When the RSI rises above the upper threshold (70), it indicates the stock is overbought—a **sell** signal may be appropriate.
 
